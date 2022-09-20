@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(black, rgb(24, 84, 141), black);
+    background-size: cover;  
+    color: azure;
+}
+
+main{
+    padding-top: 100px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+h2{
+    background-color:rgba(6, 5, 12, 0.623);
+    position: relative;
+    float: right;
+}
+#subtitulo{
+    display: inline-block;
+    vertical-align: top;
+    color: azure
+    
+}
+.logo{   
+    width: 150px;
+    float:inline-start
+}
+.componentes{
+    width: 900px;
+    margin: 0px;   
+}
+nav{
+    background-color:rgba(6, 5, 12, 0.623);
+    float: left;
+}
+
+nav ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+    
+}
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background: rgb(71, 71, 71);
+    height: 5px;
+    top:0;
+    position: absolute;
+    transition: width 0.2s;
+  }
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+  .face{
+    margin-top: 30px;
+    width: 70px;
+    margin-left: 10px;
+  }
+  .insta{
+    margin-top: 30px;
+    width: 70px;
+    margin-left: 10px;
+  }
+.partes{
+    background-color: rgb(58, 58, 78);
+    color: rgb(248, 221, 226);
+}
+.video{
+    margin: 30px;
+}
+.items-productos{
+    display: grid;
+    margin-top: 140px;
+    background-color:rgba(6, 5, 12, 0.623);
+    gap: 10px;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+.producto-item{
+    background-color: black;
+}
+.imgitem{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    transform: translate(10px, 5px);
+    transition: 1s;
+}
+.imgitem:hover{
+    transform: scale(2);
+
+}
+
+@media (max-width: 768px){
+   
+    nav ul li{
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        list-style: none;
+        margin-bottom: 10px;
+        margin-left: 55px;
+        padding: 12px 0;
+        float: left;
+        position: relative;
+    }
+     .inicio{
+        display: flex;
+        flex-direction: row;
+     }
+     .items-productos{
+        display: grid;
+        grid-template-columns: 10fr 10fr;
+        grid-template-rows: 50px 50px;
+        gap: 100px;
+        width: 100px;
+    }
+     .imgitem{
+        height: 170px;
+        transform: translate(-10px, -20px)
+
+    }
+    .producto-item{
+        padding-bottom: 150px;
+    }
+    .face{
+        transform: translate(80px, 150px);
+    }
+    .insta{
+        transform: translate(80px, 150px);
+    }
+}
