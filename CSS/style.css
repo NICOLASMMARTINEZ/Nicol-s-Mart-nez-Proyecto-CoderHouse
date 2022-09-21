@@ -58,6 +58,16 @@ nav ul li a::before {
   nav ul li a:hover::before {
     width: 100%;
   }
+  .faceb{
+    margin-top: 30px;
+    width: 70px;
+    margin-left: 10px;
+  }
+  .instag{
+    margin-top: 30px;
+    width: 70px;
+    margin-left: 10px;
+  }
   .face{
     margin-top: 30px;
     width: 70px;
@@ -98,7 +108,6 @@ nav ul li a::before {
     transform: scale(2);
 
 }
-
 @media (max-width: 768px){
 
     nav ul li{
@@ -141,9 +150,15 @@ nav ul li a::before {
         flex-direction:column
     }
     .face{
-        transform: translate(20px, 5px);
+        transform: translate(10px, 90px);
     }
     .insta{
+        transform: translate(10px, 90px);
+    }
+    .faceb{
+        transform: translate(20px, 5px);
+    }
+    .instag{
         transform: translate(20px, 5px);
     }
 }
