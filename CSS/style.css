@@ -116,6 +116,10 @@ nav ul li a::before {
         display: flex;
         flex-direction: row;
      }
+    main{
+        width: 100%;
+        height: auto;
+    }
      .items-productos{
         display: grid;
         grid-template-columns: 10fr 10fr;
@@ -131,10 +135,14 @@ nav ul li a::before {
     .producto-item{
         padding-bottom: 150px;
     }
+    footer{
+        display: flex;
+        flex-direction:column
+    }
     .face{
-        transform: translate(80px, 150px);
+        transform: translate(20px, 5px);
     }
     .insta{
-        transform: translate(80px, 150px);
+        transform: translate(20px, 5px);
     }
 }
