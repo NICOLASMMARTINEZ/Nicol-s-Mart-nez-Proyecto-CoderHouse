@@ -134,12 +134,12 @@ nav ul li a::before {
         display: grid;
         grid-template-columns: 10fr 10fr;
         grid-template-rows: 50px 50px;
-        gap: 100px;
+        gap: 72px;
         width: 100px;
     }
      .imgitem{
         height: 170px;
-        transform: translate(-10px, -20px)
+        transform: translate(-10px, -35px)
 
     }
     .producto-item{
