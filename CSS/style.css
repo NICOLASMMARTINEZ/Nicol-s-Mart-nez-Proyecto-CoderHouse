@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    min-height: 100%;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(black, rgb(24, 84, 141), black);
@@ -109,7 +113,9 @@ nav ul li a::before {
 
 }
 @media (max-width: 768px){
-
+    body{
+        width: 100%;
+    }
     nav ul li{
         display: flex;
         flex-direction: row;
@@ -150,10 +156,12 @@ nav ul li a::before {
         flex-direction:column
     }
     .face{
+        margin-top: 20px;
         transform: translate(10px, 90px);
     }
     .insta{
         transform: translate(10px, 90px);
+        margin-top: 20px;
     }
     .faceb{
         transform: translate(20px, 5px);
