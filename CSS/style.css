@@ -118,6 +118,8 @@ nav ul li a::before {
         width: 100%;
     }
     nav ul li{
+        display: flex;
+        flex-direction: row;
         margin-bottom: 10px;
         margin-left: 5px;
         padding: 2px;
