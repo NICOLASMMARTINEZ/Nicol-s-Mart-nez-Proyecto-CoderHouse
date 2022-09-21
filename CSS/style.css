@@ -117,9 +117,13 @@ nav ul li a::before {
     .componentes{
         width: 100%;
     }
-
+    nav ul li{
+        margin-bottom: 10px;
+        margin-left: 5px;
+        padding: 2px;
+    }
     main{
-            padding-top: 100px;
+            padding-top: 150px;
             margin-left: 0px;
             margin-right: 0px;
             width: 100%;
