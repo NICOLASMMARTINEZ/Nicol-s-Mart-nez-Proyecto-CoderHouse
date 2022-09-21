@@ -117,8 +117,9 @@ nav ul li a::before {
         flex-direction: row;
      }
     main{
-        width: 100%;
-        height: auto;
+            padding-top: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
     }
      .items-productos{
         display: grid;
