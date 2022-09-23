@@ -110,7 +110,7 @@ nav ul li a::before {
 
 }
 @media (max-width: 768px){
-     .inicio{
+    .inicio{
         display: flex;
         flex-direction: row;
      }
@@ -125,10 +125,10 @@ nav ul li a::before {
         padding: 2px;
     }
     main{
-            padding-top: 150px;
-            margin-left: 0px;
-            margin-right: 0px;
-            width: 100%;
+        padding-top: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
     }
      .items-productos{
         display: grid;
