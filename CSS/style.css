@@ -132,14 +132,13 @@ nav ul li a::before {
     }
      .items-productos{
         display: grid;
-        grid-template-columns: 10fr 10fr;
-        grid-template-rows: 50px 50px;
-        gap: 72px;
-        width: 100px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px 150px;
+        justify-content: center;
     }
      .imgitem{
         height: 170px;
-        transform: translate(-10px, -35px)
+        transform: translate(-10px, -35px);
 
     }
     .producto-item{
