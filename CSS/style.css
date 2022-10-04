@@ -5,12 +5,11 @@ body{
     background-size: cover;  
     color: azure;
 }
-
 main{
     padding-top: 100px;
     margin-left: 160px;
     margin-right: 160px;
-}
+} 
 h2{
     background-color:rgba(6, 5, 12, 0.623);
     position: relative;
@@ -60,6 +59,7 @@ nav ul li a::before {
     width: 100%;
   }
   footer{
+    margin-top: 30px;
     background-color:rgba(6, 5, 12, 0.623);
   }
   .face{
