@@ -1,8 +1,11 @@
 /* header */
-#subtitulo{
-    display: inline-block;
-    vertical-align: top;
-    color: $colortx;
+.inicio{
+    h1{
+        font-size: large;
+        display: inline-block;
+        vertical-align: top;
+        color: $colortx;
+    }
 }
 .logo {
     width: 150px;

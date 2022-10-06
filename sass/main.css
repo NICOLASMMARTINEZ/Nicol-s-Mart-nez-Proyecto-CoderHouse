@@ -2,20 +2,17 @@
 nav {
   background-color: rgba(6, 5, 12, 0.623);
 }
-
 nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 nav a {
   text-decoration: none;
   color: white;
 }
-
-nav ul li {
+nav li {
   color: azure;
   list-style: none;
   margin-bottom: 10px;
@@ -24,12 +21,7 @@ nav ul li {
   float: left;
   position: relative;
 }
-
-nav h1 {
-  color: azure;
-}
-
-nav ul li a::before {
+nav a::before {
   display: block;
   content: "";
   width: 0%;
@@ -39,13 +31,14 @@ nav ul li a::before {
   position: absolute;
   transition: width 0.2s;
 }
-
-nav ul li a:hover::before {
-  width: 100%;
-}
-
 nav a:hover {
   color: gray;
+}
+nav a:hover::before {
+  width: 100%;
+}
+nav h2 {
+  color: azure;
 }
 
 .componentes {
@@ -53,16 +46,18 @@ nav a:hover {
   margin: 0px;
 }
 
-nav ul li {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
-  margin-left: 5px;
-  padding: 2px;
+@media (max-width: 768px) {
+  nav li {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 2px;
+  }
 }
-
 /* header */
-#subtitulo {
+.inicio h1 {
+  font-size: large;
   display: inline-block;
   vertical-align: top;
   color: azure;
@@ -97,7 +92,7 @@ main {
 footer {
   margin-top: 30px;
   background-color: rgba(6, 5, 12, 0.623);
-  color: aqua;
+  color: rgb(13, 48, 48);
 }
 
 .face__logo {
