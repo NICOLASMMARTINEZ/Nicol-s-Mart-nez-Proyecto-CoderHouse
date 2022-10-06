@@ -1,0 +1,15 @@
+/* MAIN */
+main {
+    margin-left: 160px;
+    margin-right: 160px;
+}
+@media (max-width: $mobile){
+    main {
+        padding-top: 150px;
+        margin:{
+            left: 0px;
+            right: 0px;
+        width: 100%;
+        }
+    }
+}

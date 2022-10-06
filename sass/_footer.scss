@@ -1,0 +1,35 @@
+/* footer */
+footer{
+    margin-top: 30px;
+    background-color: $colorbg;
+    color: aqua;
+}
+.face{
+    &__logo{
+        margin-top: 30px;
+        width: 50px;
+        margin-left: 15px;
+    }
+}
+.insta{
+    &__logo{
+        margin-top: 30px;
+        width: 50px;
+        margin-left: 15px;
+    }
+}
+@media (max-width: $mobile){
+    footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .face {
+        transform: translate(2px, 45px);
+    }
+
+    .insta {
+        transform: translate(2px, 45px);
+    }
+}

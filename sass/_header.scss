@@ -1,0 +1,16 @@
+/* header */
+#subtitulo{
+    display: inline-block;
+    vertical-align: top;
+    color: $colortx;
+}
+.logo {
+    width: 150px;
+    float: inline-start
+}
+@media (max-width: $mobile){
+    .inicio {
+        display: flex;
+        flex-direction: row;
+    }
+}
